@@ -1,0 +1,58 @@
+.first{
+    border: coral;
+    border-radius: 23px;
+    color: black;
+    border-color: rgb(3, 10, 17);
+    padding: auto;
+    font-family: cursive;
+    outline-color: aqua;
+    position: relative;
+    left: 9%;
+    top: 6%;
+}
+body{
+    background-color: rgb(0, 3, 3);
+
+}
+.second{
+    border: coral;
+    border-color: black;
+    border-radius: 23px;
+    padding: auto;
+    color: black;
+    font-family: cursive;
+    outline-color: aqua;
+    position: relative;
+    left: 9%;
+    top: 14%;
+    font-display: password;
+    height: 12px;
+    width: 10px;
+}
+.button{
+    background-color: bisque;
+    color: blue;
+    padding: auto;
+    right: 40%;
+    position:relative;
+    top: 32%;
+    border: 0cm;
+    border-radius: 20px;
+    font-family: cursive;
+}
+.container{
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+    position:fixed;
+    border-radius: 10%;
+    top: 25%;
+    left: 40%;
+}
+h1{
+    color: blue;
+    position: relative;
+    left: 33%;
+    top: 3%;
+    font-family: cursive;
+}
