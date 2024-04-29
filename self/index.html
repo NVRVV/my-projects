@@ -21,7 +21,7 @@
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#education">Education</a>
-            <a href="v r v varma.pdf">Resume</a>
+            <a href="v r v varma.pdf">Resume</a></a>
             <a href="#contact">Contact Me</a>
         </nav>
     </header>
@@ -112,24 +112,21 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="">
+        <form action="https://api.web3forms.com/submit" method="POST">
             <div class="input-group">
+                <input type="hidden" name="access_key" value="94970a51-126d-4515-b3f0-bce469ad2f73">
                 <div class="input-box">
-                    <input type="text"
+                    <input type="text" name="name"
                     placeholder="Full Name">
-                    <input type="email" pattern=".+@example\.com"
+                    <input type="email" name="email"
                     size="26" placeholder="Email">
                 </div>
                 <div class="input-box">
-                    <input type="tel" maxlength="10" 
-                    placeholder="Phone Number">
-                    <input type="text"
-                    placeholder="Subject">
+                    <input type="tel" name="number" maxlength="10" 
+                    placeholder="Phone Number"  required>
+                    <input type="text" name="text" maxlength="200"
+                    placeholder="Message">
                 </div>
-            </div>
-            <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" 
-                placeholder="Your Message"></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </div>
         </form>
