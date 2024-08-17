@@ -340,6 +340,7 @@ span{
 
 .timeline-item:nth-child(even){
     padding-left: calc(50% + 30px);
+    text-align: left;
 }
 
 .timeline-dot{
@@ -388,6 +389,7 @@ span{
     font-size: 15px;
     font-weight: 300;
     line-height: 22px;
+    text-align: left;
 }
 
 ::-webkit-scrollbar{
