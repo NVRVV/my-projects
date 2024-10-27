@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import './Weather.css'
 import 'boxicons/css/boxicons.min.css';
 import clear_icon from '../assets/clear.png'
